@@ -2,7 +2,6 @@ class Particle{
   constructor(x, y, r) {
       var options = {
         'restitution':0.4,
-        velocity: 5,
       }
       this.r = r
       this.body = Bodies.circle(x, y, this.r, options);
